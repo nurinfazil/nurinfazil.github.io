@@ -41,11 +41,13 @@ template {
 }
 a {
   background-color: transparent;
+  color: white;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
-  outline-width: 0;
+  color:#29648A;
 }
 abbr[title] {
   border-bottom: none;
@@ -229,7 +231,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: white;
   font-family:  georgia, serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
