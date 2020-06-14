@@ -26,13 +26,30 @@ const IndexPage = () => (
           <h2 style = {{ textAlign: 'center', color: '#29658B', marginBottom: '1rem'}}>
             /noor-in/
           </h2>
-          <div style = {{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', alignSelf: 'center'}}>
+          <div style = {{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', alignSelf: 'center', marginBottom: '1rem'}}>
             <h3 style = {{textAlign: 'center', margin: 0}}>(1) third-year computer engineering student at the university of toronto </h3>
             <h3 style = {{textAlign: 'center', margin: 0}}>(2) passionate about creating cool things while learning cool stuff </h3>
             <h3 style = {{textAlign: 'center', margin: 0}}>(3) interests in web development and software development </h3>
           </div>
-          
 
+          <br></br>
+
+          <div style = {{backgroundColor: '#707070', padding: '2px', borderRadius: '2px', alignSelf: 'center', width: '450px'}}></div>
+          
+          <div style = {{alignSelf: 'center', marginTop: '2rem'}}>
+            <h3>
+              <Link
+                to="/"
+                style={{
+                  color: `white`,
+                  textDecoration: `none`
+                }}
+              >
+                {'experiences'}
+              </Link>
+            </h3> 
+
+          </div>
         </div>
     </Layout>
   )
