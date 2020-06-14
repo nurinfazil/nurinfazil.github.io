@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div style = {{background: '#25284D'}}>
+    <div style = {{background: '#25284D', height: '100vh', width: '100vw'}}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer style = {{position: 'fixed', bottom: '1rem', left: 0, width: '100%', textAlign: 'center'}}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
