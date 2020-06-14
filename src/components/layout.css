@@ -45,9 +45,9 @@ a {
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
-a:active,
 a:hover {
   color:#29648A;
+  font-weight: bold;
 }
 abbr[title] {
   border-bottom: none;
@@ -615,4 +615,12 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.description{
+  font-size: 1.3rem;
+}
+
+.site-pages{
+  font-size: 1.7rem;
 }
