@@ -5,12 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+
 const IndexPage = () => (
     <Layout>
       <SEO title="Home" />
       <div style={{
           display: 'flex',
-          flexDirection: 'column'
+          flexDirection: 'column', 
         }}>
           <h1 style = {{ textAlign: 'center', marginBottom: 0}}>
             hey welcome to my site! I'm 
@@ -32,20 +33,19 @@ const IndexPage = () => (
             <h3 className = "description" style = {{textAlign: 'center', margin: 0}}>(3) interests in web development and software development </h3>
           </div>
 
-          <br></br>
+          {/*<br></br>
 
-          <div style = {{backgroundColor: '#707070', padding: '2px', borderRadius: '2px', alignSelf: 'center', width: '60vw'}}></div>
+          <div style = {{backgroundColor: '#707070', padding: '2px', borderRadius: '2px', alignSelf: 'center', width: '60vw'}}></div>*/}
           
-          <div style = {{alignSelf: 'center', marginTop: '2rem', textAlign: 'center'}}>
+          {/*<div style = {{alignSelf: 'center', marginTop: '2rem', textAlign: 'center'}}>
             <h3 className = "site-pages">
-              <Link
+                <Link
                 to="/"
                 style={{
                   textDecoration: `none`
-                }}
-              >
+                }} >
                 {'experience'}
-              </Link>
+                </Link> 
             </h3> 
 
             <h3 className = "site-pages">
@@ -69,7 +69,7 @@ const IndexPage = () => (
                 {'contact'}
               </Link>
             </h3> 
-          </div>
+              </div>*/}
         </div>
     </Layout>
   )
